@@ -1,0 +1,330 @@
+.detail-product-wrapper{
+    width: 1212px;
+    height:569px;
+    margin:2.5em auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.detail-left-side{
+    width:936px;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    padding:15px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.detail-product-image{
+    width: 426px;
+    height: 537px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-product-image > img{
+    width:100%;
+    height: 426px;
+}
+
+.detail-product-image > .image-list-product{
+    width:100%;
+    height: 91px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.image-list-product > img{
+    width: 91px;
+    height: 91px;
+}
+
+.detail-about-product{
+    width: 430px;
+    height: 511px;
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.detail-product-title{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-product-title > h5{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.terjual-star{
+    display:flex;
+    height: 24px;
+    gap:10px;
+    align-items: center;
+}
+
+.terjual-star > h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0EA601;
+}
+
+.terjual-star > iconify-icon{
+    color:#FFAF00;
+    font-size:24px;
+}
+
+.terjual-star > p > span{
+    color:#606060
+}  
+
+.detail-about-product > h3{
+    font-weight: 700;
+    font-size: 32px;
+    color: #131212;
+}
+
+.detail-about-product > h3 > span{
+    color:#606060
+}
+
+.detail-product-kategori{
+    width: 356px;
+    height: 179px;
+    display:grid;
+    grid-template-columns: 33% auto;
+}
+
+.detail-product-kategori > h4{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.product-model{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:5px;
+}
+
+.product-share{
+    margin-top: auto;
+    width: 208px;
+    height: 68px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-media{
+    height: 48px;
+    display:flex;
+    align-items: center;
+    font-size: 32px;
+    justify-content: space-between;
+}
+
+
+.detail-right-side{
+    width: 248px;
+    height: 1635px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-detail-right-side{
+    width: 100%;
+    height: 574px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top:20%;
+}
+
+.detail-right-side > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    text-align: center;
+    color: #606060;
+}
+
+.detail-jumlah-pembelian{
+    width: 200px;
+    height: 260px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-jumlah-pembelian{
+    height: 76px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.input-jumlah-pembelian > h6{
+    font-weight: 700;
+    font-size: 20px;
+    color: #131212;
+    height: 24px;
+}
+
+.card-incre-decre{
+    width: 134px;
+    height: 44px;
+    display:flex;
+}
+
+.card-incre-decre > button{
+    width: 42px;
+    height: 44px;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+.card-incre-decre > .negev{
+    background: #0EA601;
+    border: 1px solid #0EA601;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.card-incre-decre > .negev.disabled{
+    background:#696969;
+    border: 1px solid #696969;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.card-incre-decre > .posit{
+    background: #0EA601;
+    border-radius: 0px 4px 4px 0;
+}
+
+.card-incre-decre > input{
+    width: 50px;
+    height: 44px;
+    border-top:2px #0EA601 solid ;
+    border-bottom:2px #0EA601 solid ;
+    text-align: center;
+    outline: none;
+    font-weight: 700;
+    font-size: 12px;
+    border-left: none;
+    border-right: none;
+    color: #0EA601;
+}
+
+.detail-total-pembelian{
+    height: 56px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detail-total-pembelian > h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #131212;
+}
+
+.detail-total-pembelian > h5{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.detail-profile-pengelola{
+    width: 200px;
+    height: 230px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-profile-pengelola > h6{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #131212;
+}
+
+.bottom-profile-pengelola{
+    width: 183px;
+    height: 110px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-profile-pengelola > h6{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.detail-checklist-verifikasi{
+    width: 113px;
+    height: 24px;
+    display:flex;
+    align-items: center;
+}
+
+.container-detail-comment{
+    width: 1216px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    margin:5px auto 40px auto;
+    gap:32px;
+}
+
+.produk-sejenis{
+    width: 1216px;
+    height: 431px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-produk-sejenis{
+    height: 22px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-produk-sejenis > h5{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.top-produk-sejenis > a{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #F2A600;
+}
+
+.bottom-produk-sejenis{
+    height: 393px;
+    display:flex;
+    justify-content: space-between;
+}

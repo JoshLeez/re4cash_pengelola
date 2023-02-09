@@ -1,0 +1,252 @@
+.tentangkami-banner{
+    width:100%;
+    height: 571px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tentangkami-banner > img{
+    width:100%;
+    height:571px;
+    position: absolute;
+    z-index:-4;
+}
+
+.tentangkami-banner > h1{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    color: #F5F5F5;
+}
+
+.our-vision{
+    width:100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:40xp;
+}
+
+.our-vision > .content-our-vision{
+    display:flex;
+    flex-direction: column;
+    gap:60px;
+    width: 1201px;
+    height: 264px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-content-vision{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+}
+
+.title-content-vision > h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.title-content-vision > .garis{
+    width: 100px;
+    height: 5px;
+    border: 2px solid #F2A600;
+    background-color: #F2A600;
+    border-radius: 5px;
+}
+
+.content-our-vision > p{
+    width: 1026px;
+    height: 160px;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.our-mission{
+    width:100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-mission > .content-our-mission{
+    display:flex;
+    width: 1216px;
+    height: 346px;
+    justify-content: space-between;
+}
+
+.content-our-mission > h2{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    color: #F5F5F5;
+}
+
+.our-mission > img{
+    width: 100%;
+    height:500px;
+    z-index: -4;
+    position:absolute;
+}
+
+.content-our-mission > ol{
+    width: 800px;
+    color: #F5F5F5;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: justify;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+
+.our-service{
+    width: 1216px;
+    height: 559px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    margin:4em auto;
+}
+
+.our-service > h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    color: #131212;
+}
+
+.list-our-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:20px;
+    height: 443px;
+}
+
+.content-our-service{
+    width: 384px;
+    height: 208px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border:5px solid #F5F5F5;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+
+.content-our-service:hover{
+    border-top: 5px solid #FFAF00;
+}
+
+.content-our-service > iconify-icon{
+    font-size: 48px;
+    color:#FFAF00;
+}
+
+.content-our-service > h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #0D0E14;
+}
+
+.content-our-service > p{
+    width: 344px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.our-social-media{
+    width: 100%;
+    height: 84px;
+    margin:3em 0;
+    display:flex;
+    gap:48px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+}
+
+.icon-nama-social{
+    display:flex;
+    gap:16px;
+    align-items: center;
+}
+
+.icon-nama-social > iconify-icon{
+    font-size: 30px;
+}
+
+.icon-nama-social > h3{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.team-kami{
+    width:fit-content;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:36px;
+    margin:0 auto 63px auto; 
+}
+
+.team-kami > h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #F2A600;
+}
+
+.profile-team-kami{
+    display:flex;
+    gap:32px;
+}
+
+.card-profile-team{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    align-items: center;
+}
+
+.nama-role{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    align-items: center;
+}
+
+.nama-role > h3{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F2A600;
+    width: 160px;
+    text-align: center;
+}
+
+.nama-role > h6{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+}

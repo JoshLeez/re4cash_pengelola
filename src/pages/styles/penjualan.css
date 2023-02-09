@@ -1,0 +1,238 @@
+.hero-penjualan{
+    margin: 2em auto;
+    width: 1216px;
+}
+
+.wrapper-kategori-pilihan{
+    width: 1216px;
+    height: 230px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 24px 32px;
+    margin:0 auto 35px auto;
+    display:flex;
+    gap:80px;
+    align-items: center;
+}
+
+.kategori-pilihan-left{
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.kategori-pilihan-left > h1{
+    width: 211px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.kategori-pilihan-btn{
+    display:flex;
+    gap:30px;
+}
+
+.kategori-btn.active{
+    background-color: #F2A600;
+}
+
+.kategori-btn{
+    width: 146px;
+    display:flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.kategori-btn > h5{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.kategori-pilihan-right{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.kategori-pilihan-right > h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.content-edukasi-umum{
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+    padding: 10px 20px;
+}
+
+.content-edukasi-umum > h5{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.content-edukasi-umum > p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content-edukasi-umum > span{
+    font-weight: 400;
+    font-size: 16px;
+    color:#F2A600;
+}
+
+.kategori-list-item{
+    display:flex;
+    width: 1216px;
+    gap:43px;
+    margin:1em auto 5em auto;
+}
+
+.left-kategori-item{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 24px;
+    column-gap: 24px;
+}
+
+.container-right-kategori-item{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.right-kategori-item{
+    background: #FFFFFF;
+    border: 1px solid #606060;
+    border-radius: 10px;
+    width: 237px;  
+    height:fit-content;
+    padding: 16px 24px 24px;
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.filter-title{
+    display:flex;
+    gap:4px;
+    font-weight: 700;
+    font-size: 20px;
+    align-self: center;
+}
+
+.filter-checkbox{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    cursor: pointer;
+}
+
+.filter-checkbox > h5{
+    font-weight: 500;
+font-size: 16px;
+}
+
+.wrapper-kisaran-harga{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.wrapper-kisaran-harga > h5{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.kisaran-harga-radiobtn{
+    display:flex;
+    gap:8px;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter-input-lokasi{
+    width: 189px;
+    height: 44px;
+    border: 1px solid #F2A600;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.filter-input-lokasi > input{
+    width:80%;
+    outline:none;
+    border:none;
+}
+
+.lokasi-radiobtn-wrapper{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    height: 152px;
+    overflow-y: scroll;
+}
+
+.lokasi-radiobtn-wrapper::-webkit-scrollbar{
+    width:10px;
+}
+
+.lokasi-radiobtn-wrapper::-webkit-scrollbar-track{
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.lokasi-radiobtn-wrapper::-webkit-scrollbar-thumb{
+    background: #F2A600;
+    border-radius: 5px;
+}
+
+.lokasi-radiobtn{
+    display:flex;
+    align-items: center;
+    gap:8px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.right-kategori-item > button{
+    align-self: center;
+}
+
+.container-right-kategori-item > h4{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.kategori-btn-pembelian{
+    background: #0EA601;
+    border: 1px solid #BCBCBC;
+    border-radius: 5px;
+    width: 146px;
+    height: 136px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kategori-btn-pembelian > h5{
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+}

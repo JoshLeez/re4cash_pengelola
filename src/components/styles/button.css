@@ -1,0 +1,236 @@
+/* button-150 */
+.btn-primary,
+.btn-secondary,
+.btn-primary-green,
+.btn-secondary-green,
+.btn-tertiary,
+.btn-batal,
+.btn-ubah,
+.btn-tambah {
+    width: 150px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* button-200 */
+.btn-primary-long,
+.btn-secondary-long,
+.btn-primary-long-green {
+    width: 200px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-sign {
+    width: 100%;
+    height: 44px;
+    background: #FFAF00;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-sign:hover {
+    background: #D08F00;
+    border-radius: 5px;
+}
+
+/* button-white-text */
+.btn-primary,
+.btn-primary-long,
+.btn-primary-green,
+.btn-secondary-green,
+.btn-tertiary,
+.btn-batal,
+.btn-ubah,
+.btn-primary-long-green,
+.btn-tambah {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+}
+
+/* button-color-gold */
+.btn-primary,
+.btn-primary-long {
+    background: #FFAF00;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-primary:hover,
+.btn-primary-long:hover {
+    background: #D08F00;
+    border-radius: 5px;
+}
+
+/* button-color-green */
+.btn-primary-green,
+.btn-ubah,
+.btn-primary-long-green,
+.btn-tambah {
+    background: #0EA601;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-primary-green:hover,
+.btn-ubah:hover,
+.btn-primary-long-green,
+.btn-tambah {
+    background: #0A8200;
+}
+
+/* button-color-white-to-bold */
+.btn-secondary,
+.btn-secondary-long {
+    border: 2px solid #FFAF00;
+    border-radius: 5px;
+    color: #FFAF00;
+    background-color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-secondary:hover,
+.btn-secondary-long:hover {
+    background: #FFAF00;
+    color: #F5F5F5;
+}
+
+.btn-tertiary {
+    border: 3px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.btn-tertiary:hover {
+    color: #0EA601;
+    background: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+/* product model button */
+.btn-model-product {
+    width: 75px;
+    height: 32px;
+    border: 1px solid #606060;
+    border-radius: 5px;
+    background: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+    ;
+    transition: .3s ease-in-out;
+}
+
+.btn-model-product:hover {
+    background: #FFAF00;
+    color: #FFFFFF;
+}
+
+/* button active */
+
+.btn-model-product:active,
+.btn-primary:active,
+.btn-primary-green:active,
+.btn-primary-long:active,
+.btn-secondary:active,
+.btn-secondary-green:active,
+.btn-secondary-long:active,
+.btn-sign:active,
+.btn-tertiary:active,
+.btn-aksi-edit,
+.btn-aksi-hapus,
+.btn-batal,
+.btn-aksi-detail {
+    border: 2px solid #D08F00;
+}
+
+
+/* button aksi tabel dashboard */
+
+.btn-aksi-edit,
+.btn-aksi-hapus,
+.btn-aksi-detail {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* button-aksi-white-text */
+.btn-aksi-edit,
+.btn-aksi-hapus,
+.btn-aksi-detail {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    transition: .3s ease-in-out;
+}
+
+/* button-aksi-edit-color-gold */
+.btn-aksi-edit {
+    background: #F2A600;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-aksi-edit:hover {
+    background: #D08F00;
+    border-radius: 5px;
+}
+
+/* button-aksi-hapus-color-red */
+.btn-aksi-hapus {
+    background: #E40101;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-aksi-hapus:hover {
+    background: #C10200;
+    border-radius: 5px;
+}
+
+/* button-batal-color-red */
+.btn-batal {
+    background: #E40101;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-batal:hover {
+    background: #C10200;
+    border-radius: 5px;
+}
+
+/* button-aksi-detail-color-blue */
+.btn-aksi-detail {
+    background: #335ABD;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.btn-aksi-detail:hover {
+    background: #112B6B;
+    border-radius: 5px;
+}

@@ -1,0 +1,73 @@
+.wrapper-sidebar {
+    width: 265px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.logo-dashpengelola {
+    align-items: center;
+    margin-left: 22.5px;
+    margin-top: 25px;
+}
+
+.nav-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-self: flex-end;
+    margin-top: 40px;
+}
+
+.nav-sidebar-isi {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 8px;
+}
+
+.nav-sidebar-isi>a {
+    color: black;
+}
+
+.nav-sidebar>a.active {
+    background-color: #F2A600;
+    border-radius: 5px;
+}
+
+.nav-sidebar-isi>span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    color: #131212;
+}
+
+.nav-sidebar-isi>iconify-icon {
+    font-size: 24px;
+    color: #131212;
+}
+
+.nav-sidebar-isi>span {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-sidebar-keluar {
+    display: flex;
+    align-items: center;
+    padding: 10px 8px;
+    gap: 8px;
+    margin-top: 40px;
+    color: red;
+}
+
+.nav-sidebar-keluar>iconify-icon {
+    font-size: 24px;
+}
+
+.nav-sidebar-keluar>span {
+    font-weight: 400;
+    font-size: 16px;
+}

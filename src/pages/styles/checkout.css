@@ -1,0 +1,389 @@
+.checkout-page{
+    display:flex;
+    gap:32px;
+    justify-content: center;
+    margin-top:24px;
+    margin-bottom: 5em;
+}
+
+.left-checkout{
+    width: 751px;
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.checkout-back-btn{
+    width: 328px;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkout-back-btn > h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.alamat-detail{
+    height: 157px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.alamat-detail-container{
+    height: 136px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.alamat-detail > p{
+    font-weight: 400;
+    font-size: 12px;
+    color: #606060;
+}
+
+.top-alamat-checkout{
+    height: 56px;
+    align-items: center;
+    padding:0 16px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #FFE19E;
+}
+
+.bottom-alamat-checkout{
+    height: 80px;
+    padding:0 16px;
+    display:flex;
+    align-items: center;
+    gap:16px;
+}
+
+.bottom-alamat-checkout > p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+.top-alamat-checkout > h5{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bottom-alamat-checkout > button{
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2A600;
+    cursor: pointer;
+    background:none;
+    border:none;
+    width:111px;
+}
+
+.metode-transaksi{
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+}
+
+
+.metode-transaksi-bot{
+    padding:0 16px;
+    height: 64px;   
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.metode-transaksi-bot > button{
+    font-weight: 600;
+    font-size: 16px;
+    color: #F2A600;
+    cursor: pointer;
+    background:none;
+    border:none;
+}
+
+.left-bank-metode{
+    display:flex;
+    gap:16px;
+}
+
+.checkout-form-menabung{
+    filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.15));
+    background: #FFFFFF;
+    border-radius: 10px ;
+}
+
+.checkout-nama-bank-sampah{
+    display:flex;
+    gap:40px;
+    align-items: center;
+}
+
+.checkout-nama-bank-sampah > h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #131212;
+}
+
+.lokasi-bank-sampah{
+    display:flex;
+    gap:4px;
+    align-items: center;
+}
+
+.lokasi-bank-sampah > h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #131212;
+}
+
+.bottom-form-menabung{
+    padding:16px;
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.input-top-menabung{
+    display:flex;
+    gap:16px;
+}
+
+.jumlah-penjualan-dan-distribusi{
+    padding: 22.5px 0;
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.input-jumlah-penjualan{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:32px;
+    row-gap: 16px;
+}
+
+.jumlah-penjualan{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.input-number-penjualan{
+    display:flex;
+    gap:16px;
+    align-items: center;
+}
+
+.input-number-penjualan >h6{
+    font-weight: 700;
+    font-size: 16px;
+    color: #131212;
+}
+
+.input-number-penjualan > input{
+    width: 146px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #0EA601;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    gap: 8px;
+    padding: 13px 20px;
+    outline: none;
+}
+
+.jumlah-penjualan > p{
+    font-weight: 500;
+        font-size: 16px;
+}
+
+.right-checkout{
+    width: 435px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    height: fit-content;
+    padding: 24px 16px;
+    gap: 16px;
+    display:flex;
+    flex-direction: column;
+}
+
+.right-checkout > img{
+    width: 162px;
+    height: 66px;
+    align-self: center;
+}
+
+.wrapper-detail-pembelian{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.detail-pembelian{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-pembelian > h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detail-pembelian > .checklist-point{
+    display:flex;
+    align-items: center;
+    gap:4px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.detail-pembelian > h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.detail-pembelian > h6 > span{
+    color: #606060;
+}
+
+.detail-pembelian > h4{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F2A600;
+}
+
+.btn-checkout{
+    height: 44px;
+    background: #F2A600;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border:none;
+}
+
+.btn-checkout:active{
+    box-shadow: 1px 1px 1px 1px #F2A600;
+}
+
+.btn-checkout:hover{
+    background: #D08F00;
+}
+
+.wrapper-catatan{
+   display: flex;
+   flex-direction: column;
+   gap:4px;
+   padding:0 16px 16px 16px;
+}
+
+.wrapper-catatan > h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.wrapper-catatan > textarea{
+    width:100%;
+    height: 125px;
+    outline: none;
+    resize: none;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+}
+
+.wrapper-catatan > textarea:focus{
+    border:#131212 1px solid;
+}
+
+.pilih-jasa-kurir{
+    width: 269px;
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.02);
+    border-radius: 8px;
+    height: 44px;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+.top-jasa-kurir{
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+    text-align: center;
+}
+
+.top-jasa-kurir > h2{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.top-jasa-kurir > span{
+    font-weight: 400;
+    font-size: 12px;
+    color: #606060;
+}
+
+.list-option-jasa-kurir{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+
+.option-jasa-kurir{
+    display:flex;
+    gap:18px;
+}
+
+.detail-jasa-kurir{
+    display:flex;
+    border: 1px solid #F2A600;
+    border-radius: 10px;
+    padding: 10px 16px;
+    gap:113px;
+    width:auto;
+    align-items: center;
+}
+
+.detail-jasa-kurir > img{
+    width: 145.1px;
+    height: 32px;
+}
+
+.detail-estimasi-kurir{
+    display:flex;
+    padding: 13px 20px;
+    align-items: center;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    padding: 8px 20px;
+    gap:30.5px;
+}
+
+.detail-estimasi-kurir > span{
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 96px;
+}

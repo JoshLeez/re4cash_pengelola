@@ -1,0 +1,74 @@
+.card-jmldata-dashboard-utama {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    gap: 8px;
+    padding-top: 8px;
+
+    width: 195.5px;
+    height: 102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+
+}
+
+.konten-jmldata-dashutama {
+    display: flex;
+    gap: 8px;
+    position: relative;
+    padding: 4px 16px;
+
+}
+
+.konten-jmldata-dashutama>iconify-icon {
+    font-size: 30px;
+    color: #F5F5F5;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0EA601;
+    border-radius: 50px;
+
+}
+
+.kontenisi-jmldata-dashutama {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+}
+
+.kontenisi-jmldata-dashutama>h3 {
+    font-size: 18px;
+}
+
+.kontenisi-jmldata-dashutama>p {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.konten-bawah-jmlhdata-dashutama {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 10px;
+    gap: 10px;
+    position: relative;
+
+    width: 195.5px;
+    height: 23px;
+
+    background: #0EA601;
+    border-radius: 0px 0px 8px 8px;
+    color: #F5F5F5;
+}
+
+.konten-bawah-jmlhdata-dashutama>h5 {
+    font-weight: 400;
+    font-size: 14px;
+}

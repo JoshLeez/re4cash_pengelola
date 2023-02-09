@@ -1,0 +1,181 @@
+.content-pagination-pesanan-saya{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    width: 904px;
+    height:400px;
+    padding: 23px 17px;
+    display:flex;
+    flex-direction: column;
+    gap:16px;
+    overflow-y:scroll;
+} 
+
+.content-pagination-pesanan-saya::-webkit-scrollbar{
+    width:10px;
+}
+
+.content-pagination-pesanan-saya::-webkit-scrollbar-track{
+    background: #D9D9D9;
+    border-radius: 5px;
+}
+
+.content-pagination-pesanan-saya::-webkit-scrollbar-thumb{
+    background: #F2A600;
+    border-radius: 5px;
+}
+
+.pesanan-progress{
+    padding: 10px 32px;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+    width:100%;
+    height: 142px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-pesanan-progress{
+    display: flex;
+    gap:16px;
+}
+
+.left-pesanan-progress > img{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.detail-pesanan-kami{
+    display:flex;
+    flex-direction: column;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.detail-pesanan-kami > h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.detail-pesanan-kami > p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #606060;
+}
+
+.detail-pesanan-kami > h2{
+    font-weight: 500;
+    font-size: 18px;
+    color: #0EA601;
+}
+
+
+.right-pesanan-progress{
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.right-pesanan-progress > p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #606060;
+}
+
+.bank-menunggu-transaksi{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+
+.bank-menunggu-transaksi > h6{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F2A600;
+}
+
+.batalkan-transaksi{
+    display:flex;
+    gap:4px;
+    align-items: center;  
+    color: #E40101;
+}
+
+.batalkan-transaksi > h6{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.batalkan-transaksi > iconify-icon{
+    font-size: 24px;
+}
+
+.right-pesanan-progress > h6{
+    font-weight: 700;
+    font-size: 16px;
+    color:#F2A600;
+}
+
+.pesanan-progress-estimasi > h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.content-pagination-pesanan-saya.kosong{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesanan-kosong{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+
+.pesanan-kosong > iconify-icon{
+    font-size: 80px;
+    color: #F2A600;
+}
+
+.pesanan-kosong > h2{
+    font-weight: 500;
+    font-size: 18px;
+    color: #606060;
+}
+
+.pesanan-sukses{
+    display:flex;
+    align-items: center;
+    color:#0EA601;
+    gap:10px;
+}
+
+.pesanan-rating{
+    display:flex;
+    gap:10px;
+    align-items: center ;
+}
+
+.pesanan-rating > iconify-icon{
+    font-size: 24px;
+}
+
+.pesanan-rating > h6{
+    font-weight: 500;
+    font-size: 16px;
+    color: #131212;
+}
+
+.pesanan-sukses > h6{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.pesanan-sukses > iconify-icon{
+    font-size:20px;
+}

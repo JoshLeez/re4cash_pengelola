@@ -1,0 +1,572 @@
+.hero-marketplace{
+    width: 1216px;
+    height: 350px;
+    margin:3em auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.left-hero-marketplace{
+    width: 904px;
+    height: 100%;
+}
+
+
+.right-hero-marketplace{
+    width: 280px;
+    height:100%;
+}
+
+.swiper-button-next { 
+    color: #f5f5f5;
+}
+
+.swiper-button-prev {
+     color: #f5f5f5; 
+}
+
+.swiper-pagination-bullet{
+    width: 50px;
+    height: 10px;
+    border-radius: 5px;
+    background: #f5f5f5;
+}
+
+.swiper-pagination-bullet-active{
+    background: #FFAF00;
+}
+
+/* transform : scale(2), rorate(-15deg) */
+
+.kategori-sampah{ 
+    width: 1217px;
+    height: 410px;
+    margin:5em auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.kategori-sampah > h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #131212;
+}
+
+.kategori-sampah > .anorganik-kategori{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.anorganik-kategori > .anorganik-item-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 158px;
+}
+
+.anorganik-item-wrapper> .anorganik-item{
+    width: 120px;
+    height: 120px;
+    background: #FFAF00;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3 ease-in-out all;
+}
+
+
+.anorganik-item-wrapper > h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #131212;
+}
+
+.anorganik-item > img:hover {
+    transform : scale(1.2) rotate(20deg);
+    transition: .3 ease-in-out all;
+}
+
+
+.kategori-sampah > .organik-kategori{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+
+.organik-kategori > .organik-item-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 158px;
+}
+
+.organik-item-wrapper > h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #131212;
+}
+
+.organik-item-wrapper > .organik-item{
+    width: 120px;
+    height: 120px;
+    background: #0EA601;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.organik-item > img:hover {
+    transform : scale(1.2) rotate(20deg);
+    transition: .3 ease-in-out all;
+}
+
+
+.marketplace-utama-penjualan{
+    width: 1217px;
+    height: 872px;
+    margin:5em auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1.5em;
+}
+
+.marketplace-utama-penjualan > h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #131212;
+}
+
+.utama-list-penjualan{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 826px;
+}
+
+.utama-produk-mentahan{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* card-for-seller */
+
+.wrapper-penjualan-card{
+    display:flex;
+    color:black;
+}
+
+.penjualan-card{
+   width: 216px;
+   height: 393px;
+   padding:16px;
+   display:flex;
+   flex-direction: column;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+}
+
+.penjualan-card:hover{
+    border-radius: 10px 0 0 10px;
+}
+
+.penjualan-card > img{
+    width: 184px;
+    height: 169px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.content-detail-produk {
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 186px;
+}
+
+.bottom-detail-card{
+    width: 184px;
+    display:flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.bottom-detail-card > h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #131212;
+    height:40px;
+}
+
+.rating-produk{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.rating-produk > p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0EA601;
+    width: 58px;
+    height: 30px;
+    border: 1px solid #0EA601;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating-star{
+    width: 96px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+}
+
+.total-star{
+    display:flex;
+}
+
+.total-star > iconify-icon{
+    font-size: 18px;
+    color: #FFAF00;
+}
+
+.rating-star > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #131212;
+}
+
+.rating-star > p > span{
+    color: #606060;
+}
+
+.bottom-detail-card > h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #131212;
+}
+
+.bottom-detail-card > h4 > span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #606060;
+}
+
+
+.lokasi-bottom{
+    width: 184px;
+    height: 48px;
+    display:flex;
+    flex-direction: column;
+}
+
+.lokasi-place{
+    display:flex;
+    gap:4px;
+    align-items: center;
+}
+
+.lokasi-bottom > p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #0EA601;
+}
+
+.lokasi-place > p{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #131212;
+}
+
+.penjualan-hover{
+    margin-left:215px;
+    width:0;
+    height:393px;
+    position: absolute;
+    animation: opposite .1s ease-in-out;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 0 10px 10px 0;
+    display:flex;
+    flex-direction: column;
+    padding: 16px 0;
+}
+
+@keyframes opposite{
+    0%{
+        width:220px;
+    }
+    50%{
+        width:calc(220px/2)
+    }
+    100%{
+        width:0;
+    }
+}
+
+.wrapper-penjualan-card:hover .penjualan-hover{
+    width:220px;
+    animation: box-animation .1s ease-in-out;
+}
+
+@keyframes box-animation{
+    0%{
+        width:0;
+    }
+    50%{
+        width:calc(220px/2)
+    }
+    100%{
+        width:220px;
+    }
+}
+
+
+.card-input-nilai{
+    width: 178px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-input-nilai > input{
+    width: 150px;
+    height: 44px;
+    border: 1px solid #0EA601;
+    border-radius: 5px;
+    outline: none;
+    padding:5px;
+    margin-top: 8px;
+}
+
+.card-input-nilai > .card-incre-decre {
+   margin-top: 8px;
+}
+
+.card-input-nilai > h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 12px;
+    color: #000000;
+    margin-left: 8px;
+}
+
+.card-total-price{
+    display:flex;
+    flex-direction: column;
+    height: 47px;
+    margin-bottom: 16px;
+}
+
+.card-total-price > h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.card-total-price > h4{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.card-button-buy-cart{
+    height: 96px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.card-profile-verifikasi{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+}
+
+.card-profile-verifikasi > img{
+    width: 90px;
+    height: 72px;
+}
+
+.card-profile-verifikasi > .card-checklist-verifikasi{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84px;
+    height: 16px;
+}
+
+.card-checklist-verifikasi > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000000;
+}
+
+
+.marketplace-penjualan-button, .marketplace-pembelian-button{
+    width: 209px;
+    height: 393px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.marketplace-penjualan-button{
+    background: #FFAF00;
+}
+
+.marketplace-pembelian-button{
+    background:#0EA601;
+}
+
+.penjualan-button-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 155px;
+    height: 52px;
+}
+
+/* marketplace-pembelian */
+.marketplace-utama-pembelian{
+    width: 1215px;
+    height: 439px;
+    margin:5em auto;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.marketplace-utama-pembelian > h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: #131212;
+}
+
+.penjualan-hover > .card-incre-decre{
+    display:none;
+}
+
+.wrapper-penjualan-card:hover .penjualan-hover >*{
+    opacity:1;
+    animation: appear .5s ease-in-out;
+    width:none;
+    display: inherit;
+}
+.penjualan-hover > *{
+    display: none;
+}
+
+@keyframes appear{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
+/* Item without button */
+.wrapper-item{
+   width: 216px;
+   padding:16px;
+   display:flex;
+   flex-direction: column;
+   gap:8px;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+}
+
+.wrapper-item > img{
+   width: 184px;
+   height: 167px;
+   border-radius: 10px;
+}
+
+.wrapper-item > h6{
+   font-weight: 500;
+   font-size: 16px;
+}
+
+.wrapper-item > p{
+   width: 59px;
+   height: 30px;
+   border: 1px solid #0EA601;
+   border-radius: 5px;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   font-size: 12px;
+   color: #0EA601;
+}
+
+.price-card{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.price-card > span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #606060;
+}
+
+
+/* Card Tabungan */
+.bisa-menabung-status{
+    display:flex;
+    gap:4px;
+    align-items: center;
+}
+
+.bisa-menabung-status > iconify-icon{
+    font-size: 24px;
+}
+
+.content-mid .bisa-menabung-status > span{
+    font-weight: 500;
+    font-size: 12px;
+}
