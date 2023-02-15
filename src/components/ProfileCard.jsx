@@ -23,11 +23,11 @@ const ProfileCard = () => {
     }
   };
 
-  const menuRef = useRef();
+    const menuRef = useRef(null);
 
   useEffect(() => {
     let handler = (event) => {
-      if (!menuRef.current.contains(event.target)) {
+      if (menuRef.current != null && !menuRef.current.contains(event.target)) {
         setEditModal(false);
       }
     };
@@ -35,13 +35,13 @@ const ProfileCard = () => {
     return () => {
       document.removeEventListener("mousedown", handler);
     };
-  });
+  },[]);
 
   // const onSubmit = (value) => {
   //   console.log(value);
   // }
 
-  console.log(editModal)
+  // console.log(editModal)
 
   // const handleFileChange = (e) => {
   //   const file = e.target.files[0];
